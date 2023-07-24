@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/k.kirubakaran/Desktop/DailymailAutomation/DailymailAutomation">
+        <classes>
+            <class name="org.dailymail.Testcase1">
+                <methods>
+                    <include name="clickonclassichomepage"/>
+                    <include name="clickLogin"/>
+                    <include name="setUsername"/>
+                    <include name="setPassword"/>
+                    <include name="clickLogin_"/>
+                    <include name="clickComments"/>
+                    <include name="setCommentText"/>
+                    <include name="clickCommentButton"/>
+                </methods>
+            </class>
+            <class name="org.dailymail.Testcase2">
+                <methods><include name="clickonclassichomepage"/>
+                    <include name="clickgalleryImage"/>
+                    <include name="clickGalleryicon"/>
+                    <include name="carosel_"/>
+                    <include name="close"/>
+                </methods>
+            </class>
+            <class name="org.dailymail.Testcase3">
+            <methods>
+                <include name="clickplayButtonClick"/>
+                <include name="clickpauseButtonClick"/>
+            </methods>
+            </class>
+            <class name="org.dailymail.Testcase4">
+                <methods>
+                    <include name="searchlink"/>
+                    <include name="TypeSearchText"/>
+                    <include name="clickSearchButton"/>
+                    <include name="close"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
